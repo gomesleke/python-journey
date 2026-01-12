@@ -5,10 +5,12 @@ Os primeiros 5 números quadrados são: 1, 4, 9, 16, 25, e a soma dos quadrados 
 
 Entre os primeiros 514 mil números quadrados, qual é a soma de todos os quadrados ímpares?"
 '''
-
+i=0
 for x in range(1,6):
     square_x=x**2
     if x%2 !=0:
+        i+=square_x
         print(x)
 
+print(i)
 

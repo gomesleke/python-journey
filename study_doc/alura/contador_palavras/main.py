@@ -14,6 +14,6 @@ else:
     if resultado:
         print('Contagem:')
         for palavra,quantidade in resultado.items():
-            print(f' - {palavra}:{quantidade}')
+            print(f' - {palavra}: {quantidade}')
     else:
         print('Não há palavra válida')

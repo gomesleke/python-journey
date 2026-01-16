@@ -16,5 +16,4 @@ def contar_palavras(frase):
     for palavra in palavras:
         contagem[palavra]=contagem.get(palavra,0)+1 #sistema que impede contar a mesma palavra masi de uma vez
 
-
     return contagem

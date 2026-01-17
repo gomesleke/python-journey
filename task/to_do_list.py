@@ -25,7 +25,7 @@ def exit():
     print('I see you later')
 
 def clean_screen():
-    os.system('clear')
+    os.system('cls')
 
 def invalid():
     clean_screen()

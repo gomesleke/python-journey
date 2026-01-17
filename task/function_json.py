@@ -32,10 +32,11 @@ def append_json(item): #adiciona no json
 def remove_json(item): #remove item
     storage = open_json()
 
-    storage.remove(item)
+    storage = [i for i in storage if i.get("task") != item]
     create_json(storage)
 
 def clean_all(): #limpa tudo
     create_json([])
+
 
 

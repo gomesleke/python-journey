@@ -39,4 +39,3 @@ def clean_all(): #limpa tudo
     create_json([])
 
 
-clean_all()

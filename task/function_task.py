@@ -27,7 +27,9 @@ def rm_task():
             break
         remove_json(task)
 
+def show_task(data):
+    for task in data:
+            status_print='[X]' if task['check'] else '[ ]'
+            print(f'{status_print} - {task['task']}')
 
 
-add_task()
-rm_task()

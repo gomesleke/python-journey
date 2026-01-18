@@ -7,7 +7,7 @@ from function_task import rm_task
 task_storage=open_json()
 
 def clean_screen(): 
-    os.system('cls')
+    os.system('clear')
 
 def start():
     print('''
@@ -53,5 +53,6 @@ def choice_menu():
 
 def main():
     start()
+    choice_menu()
 if __name__=='__main__':
     main()
